@@ -1,3 +1,3 @@
 # screenplay
 
-The Screenplay Pattern for Python
+The Python Screenplay Pattern
