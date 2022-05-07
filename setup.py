@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
   name="screenplay",
-  version="0.1.4",
+  version="0.1.5",
   author="Pandy Knight",
   author_email="",
   description="The Python Screenplay Pattern",
