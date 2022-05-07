@@ -1,8 +1,7 @@
 name: Build and publish the screenplay package to PyPI
 
 on:
-  push:
-    branches: [main]
+  push
 
 jobs:
   build-n-publish:
