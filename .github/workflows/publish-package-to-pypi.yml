@@ -1,12 +1,18 @@
-name: Build and publish the screenplay package to PyPI
+# Builds and publishes the `screenplay` package to PyPI.
+# To trigger this action, create and push a tag for the current version.
+# The tag should be prefixed with the letter "v" and use semantic version numbers.
+# For example: "v1.2.3".
+
+
+name: Publish the screenplay package to PyPI
 
 on:
   push:
     tags: 'v**'
 
 jobs:
-  build-n-publish:
-    name: Build and publish the screenplay package to PyPI
+  publish:
+    name: Publish the screenplay package to PyPI
     runs-on: ubuntu-latest
 
     steps:
