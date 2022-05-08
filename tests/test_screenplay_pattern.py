@@ -24,6 +24,10 @@ def actor() -> Actor:
 # Tests: Actor
 # --------------------------------------------------------------------------------
 
+def test_failure() -> None:
+  assert False
+
+
 def test_actor_init_default(actor: Actor) -> None:
   assert len(actor._abilities) == 0   # type: ignore
   assert str(actor) == 'Actor'
